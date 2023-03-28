@@ -1,6 +1,6 @@
 @font-face {
     font-family: Fester;
-    src: url(/static/Fester\ Medium.ttf);
+    src: url(assets/fonts/b0fb074227bf3deab74fa8df18d206ba.ttf);
 }
 *
 {
@@ -64,3 +64,5 @@ p{
         margin: 16em 6em;
     }
 }
+
+/*# sourceMappingURL=main.css.map*/
