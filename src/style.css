@@ -13,7 +13,8 @@ body
 {
     height: 100vh;
     font-family: Fester;
-    background-color: whitesmoke;
+    background-color: #1e1e1e;
+    color: white;
 }
 
 .webgl
