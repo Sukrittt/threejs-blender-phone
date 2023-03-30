@@ -70,6 +70,15 @@ pointLight.position.y = 3;
 pointLight.position.z = 4;
 scene.add(pointLight);
 
+//Light 2
+const pointLight2 = new THREE.PointLight(0xffffff, 3);
+
+pointLight2.position.x = 3.3;
+pointLight2.position.y = -2.5;
+pointLight2.position.z = 3.6;
+
+scene.add(pointLight2);
+
 /**
  * Sizes
  */
@@ -140,9 +149,6 @@ const tick = () => {
 
   // Update objects
   camera.position.x = scrollX * 0.00005;
-
-  // Update Orbital Controls
-  // controls.update()
 
   // Render
   renderer.render(scene, camera);
